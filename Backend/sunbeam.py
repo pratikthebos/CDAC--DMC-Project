@@ -11,7 +11,7 @@ from aiogram import Bot, Dispatcher, executor, types
 import mysql.connector as connector
 #from config import TOKEN_API
 
-bot = Bot("7753361066:AAHcpIdZnmbexVt4pbBIArKLGHaVokqO8LU")
+bot = Bot("UseYourToken")
 dp = Dispatcher(bot)
 
 conn = connector.connect(
