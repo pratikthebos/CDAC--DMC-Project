@@ -1,0 +1,40 @@
+.main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 40px; 
+    margin: 45px;
+}
+
+.main div {
+    width: 100%; 
+    height: 80px;
+}
+
+#div1{
+    background-color: #f977b6;
+}
+
+#div2{
+    background-color: #01CBC6;
+}
+
+#div3{
+    background-color: #e473fa;
+}
+
+#div4{
+    background-color: #F5BCBA;
+}
+
+h5{
+    padding-left: 15px;
+    padding-top: 10px;
+ 
+}
+
+p{
+    padding-left: 16px;
+    font-size: 18px;
+    font-weight: 500;
+   
+}

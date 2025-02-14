@@ -1,0 +1,98 @@
+/* Container for login page */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(45deg, #007bff, #6c757d); /* New color scheme: blue and gray */
+  animation: gradientAnimation 5s infinite ease-in-out;
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background: linear-gradient(45deg, #6c757d, #f3e16b);
+  }
+  20% {
+    background: linear-gradient(135deg, #01CBC6, #6c757d);
+  }
+  40% {
+    background: linear-gradient(45deg, #6c757d, #E74292);
+  }
+  60% {
+    background: linear-gradient(135deg, #BB2CD9, #6c757d); /* Green and gray */
+  }
+  80% {
+    background: linear-gradient(45deg, #6c757d, #25CCF7);
+  }
+  100% {
+    background: linear-gradient(135deg, #ff9470, #6c757d);
+  }
+}
+
+/* Login Form Styling */
+.login-form {
+  background-color: white;
+  padding: 40px 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+h3 {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #333;
+  text-align: center;
+}
+
+.form-control {
+  height: 50px;
+  font-size: 1rem;
+  padding: 10px;
+  border-radius: 25px;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+  border-radius: 25px;
+  padding: 10px;
+  font-size: 1rem;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+.invalid-feedback {
+  font-size: 0.875rem;
+  color: #dc3545;
+}
+
+.is-invalid {
+  border-color: #dc3545;
+}
+
+@media (max-width: 767px) {
+  .login-form {
+    padding: 30px 20px;
+  }
+
+  h3 {
+    font-size: 1.8rem;
+  }
+}

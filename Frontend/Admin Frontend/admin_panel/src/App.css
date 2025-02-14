@@ -1,0 +1,8 @@
+/* Ensure the content shifts right to accommodate the fixed sidebar */
+.content {
+    margin-left: 15%; /* Same as sidebar width */
+    width: 85%; /* Remaining width */
+    padding: 20px;
+  }
+  
+  
