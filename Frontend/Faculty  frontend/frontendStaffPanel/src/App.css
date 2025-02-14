@@ -1,0 +1,70 @@
+/* Sidebar Styling */
+.sidebar-container {
+  width: 250px;
+  background-color: #343a40;
+  color: white;
+  height: 100vh; /* Full height */
+  position: fixed;
+  left: 0;
+  top: 0;
+  overflow-y: auto;
+  transition: width 0.3s ease-in-out;
+}
+
+.sidebar-container:hover {
+  width: 270px; /* Expands slightly on hover */
+}
+
+.sidebar-container a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding: 12px 20px;
+  transition: background 0.3s ease-in-out;
+}
+
+.sidebar-container a:hover {
+  background-color: #495057;
+}
+
+/* Responsive Sidebar */
+@media (max-width: 768px) {
+  .sidebar-container {
+    width: 200px;
+  }
+}
+
+/* Main Content Styling */
+.content-container {
+  margin-left: 250px; /* Push content to the right */
+  flex-grow: 1;
+  padding: 20px;
+  overflow-y: auto;
+  min-height: 100vh;
+  background-color: #f8f9fa;
+}
+
+/* Responsive Content */
+@media (max-width: 768px) {
+  .content-container {
+    margin-left: 200px;
+    padding: 15px;
+  }
+}
+
+/* Custom Scrollbar */
+.sidebar-container::-webkit-scrollbar,
+.content-container::-webkit-scrollbar {
+  width: 6px;
+}
+
+.sidebar-container::-webkit-scrollbar-thumb,
+.content-container::-webkit-scrollbar-thumb {
+  background: #6c757d;
+  border-radius: 10px;
+}
+
+.sidebar-container::-webkit-scrollbar-thumb:hover,
+.content-container::-webkit-scrollbar-thumb:hover {
+  background: #495057;
+}

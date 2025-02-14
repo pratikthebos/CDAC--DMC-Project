@@ -1,0 +1,31 @@
+.dashboard-container {
+    padding: 20px;
+    background-color: #f4f7fa;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dashboard-container h2 {
+    text-align: center;
+    font-size: 28px;
+  }
+  
+  .dashboard-container nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .dashboard-container nav ul li {
+    margin-bottom: 10px;
+  }
+  
+  .dashboard-container nav ul li a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #4CAF50;
+  }
+  
+  .dashboard-container nav ul li a:hover {
+    text-decoration: underline;
+  }
+  

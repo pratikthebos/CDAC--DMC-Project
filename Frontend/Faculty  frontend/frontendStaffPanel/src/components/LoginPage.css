@@ -1,0 +1,73 @@
+/* Full-page container to center content */
+.login-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f7fa;
+}
+
+/* Login form container */
+.login-container {
+  width: 100%;
+  max-width: 400px;
+  padding: 25px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+/* Title */
+.login-container h2 {
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Form styling */
+.login-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Input fields */
+.login-container input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  transition: 0.3s;
+}
+
+.login-container input:focus {
+  border-color: #4CAF50;
+  box-shadow: 0px 0px 8px rgba(76, 175, 80, 0.2);
+}
+
+/* Login button */
+.login-container button {
+  padding: 12px;
+  background: linear-gradient(135deg, #4CAF50, #2E7D32);
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.login-container button:hover {
+  background: linear-gradient(135deg, #388E3C, #1B5E20);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .login-container {
+      max-width: 90%;
+  }
+}

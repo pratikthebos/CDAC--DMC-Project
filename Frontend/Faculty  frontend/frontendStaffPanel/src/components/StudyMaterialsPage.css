@@ -1,0 +1,58 @@
+.study-materials-container {
+  width: 80%;
+  margin: 20px auto;
+  text-align: center;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.add-material-btn {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.add-material-btn:hover {
+  background-color: #45a049;
+}
+
+.study-materials-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+.study-materials-table th, .study-materials-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+.study-materials-table th {
+  background-color: #007BFF;
+  color: white;
+  font-size: 16px;
+}
+
+.study-materials-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.study-materials-table tr:hover {
+  background-color: #ddd;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+  margin-top: 10px;
+}

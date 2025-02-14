@@ -1,0 +1,77 @@
+.assignments-container {
+  width: 90%;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.assignments-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.assignments-table th,
+.assignments-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+.assignments-table th {
+  background-color: #343a40;
+  color: white;
+  padding: 10px;
+}
+
+.assignments-table td input {
+  width: 60px;
+  padding: 5px;
+  text-align: center;
+}
+
+.assignments-table td button {
+  margin-left: 5px;
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.assignments-table td button:hover {
+  background-color: #0056b3;
+}
+
+/* Sidebar Fix */
+.sidebar-container {
+  width: 250px;
+  background-color: #343a40;
+  color: white;
+  height: 100vh; /* Full height */
+  padding: 20px;
+}
+
+.sidebar-container a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  padding: 10px;
+}
+
+.sidebar-container a:hover {
+  background-color: #495057;
+}
+
+.logout-button {
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+  text-align: left;
+  width: 100%;
+}
+
+.logout-button:hover {
+  background-color: #dc3545;
+}

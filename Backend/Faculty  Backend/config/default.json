@@ -1,0 +1,8 @@
+{
+    "host": "localhost",
+    "user": "W3_87248_SAMEER",
+    "password": "manager",
+    "database": "institutemanagement",
+    "port"     : "4444",
+    "jwtSecret": "sameer"
+}
